@@ -1,0 +1,79 @@
+.backgr{
+    position: absolute;
+width: 1388px;
+height: 758px;
+left: 26px;
+top: 17px;
+
+background: #F1F1F1;
+border-radius: 90px;
+}
+
+#exit{
+    position: absolute;
+    width: 81px;
+    height: 54px;
+    left: 1278px;
+    top: 52px;    
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#title{
+    position: absolute;
+width: 622px;
+height: 58px;
+left: 408px;
+top: 161px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* blue_kpi */
+
+color: #1E396E;
+
+}
+
+.table_backgr{
+    position: absolute;
+width: 1211px;
+height: 435px;
+left: 114px;
+top: 243px;
+overflow-x: scroll;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 60px;
+}
+
+table{
+position: absolute;
+max-height: 80%;
+max-width: 80%;
+left: 0px;
+top: 20px;
+margin: 20px;
+}

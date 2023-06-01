@@ -1,0 +1,444 @@
+tbody.content {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: rgb(245, 245, 245);
+    border-top: 1px solid #fff;
+}
+
+tr:hover {
+    background-color: #ccc;
+}
+
+th {
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 3px 5px;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+td:checked {
+    background-color: #ccc;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+div.table {
+    /* backgr */
+    position: absolute;
+    width: 712px;
+    height: 701px;
+    left: 59px;
+    top: 47px;
+
+    /* white */
+
+    background: #FFFFFF;
+    border-radius: 90px;
+
+}
+
+h1#helloworld {
+    /* Вітаємо, Дмитро! */
+
+
+    position: absolute;
+    width: 533px;
+    height: 86px;
+    left: 826px;
+    top: 352px;
+    margin-left: 60px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+
+div.backgr {
+    /* backgr */
+    position: absolute;
+    width: 1388px;
+    height: 758px;
+    left: 26px;
+    top: 16px;
+
+    background: #F1F1F1;
+    border-radius: 90px;
+}
+
+#searching_surname {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 289.69px;
+    height: 54.35px;
+    left: 859px;
+    top: 444.65px;
+
+    background: #FFFFFF;
+    /* grey_kpi */
+
+    border: 1px solid #BBBBBB;
+    border-radius: 30px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: hsl(0, 0%, 73%);
+}
+
+#searching_surname:focus {
+    background: #eaeeff;
+    color: hsl(0, 0%, 8%);
+}
+
+#searching_surname:hover {
+    background: #eaeeff;
+    transition: ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.content:checked {
+    background: #bbbbbb;
+}
+
+#SalaryWithdraw {
+
+
+    /* blue_kpi */
+
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+
+
+    /* Розрахувати зарплатню */
+
+
+    position: absolute;
+    width: 467px;
+    height: 75.1px;
+    left: 800px;
+    top: 575px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#last_summary {
+    /* реєстрація */
+
+
+    position: absolute;
+
+    /* blue_kpi */
+
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+
+
+    /* Останні звіти */
+
+
+    position: absolute;
+    width: 467px;
+    height: 75.1px;
+    left: 859px;
+    top: 535px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 65px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+button#exit {
+    /* вихід */
+
+
+    position: absolute;
+    width: 81px;
+    height: 54px;
+    left: 1278px;
+    top: 52px;
+
+    /* blue_kpi */
+
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+table.table {
+    align-items: center;
+    scale: 90%;
+
+    overflow-y: scroll;
+
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+thead {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#head:hover {
+    background: #FFFFFF;
+}
+
+#list_title {
+    text-align: center;
+    margin-top: 53px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+
+}
+
+#add {
+
+    /* blue_kpi */
+
+    background: #1E396E;
+    border: 0;
+    border-radius: 15px;
+
+
+    /* + */
+
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 608px;
+    top: 50px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#i {
+
+    background: #1E396E;
+    border: 0;
+    border-radius: 15px;
+
+
+    /* i */
+
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 548px;
+    top: 50px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#sort {
+    position: absolute;
+    width: 167.82px;
+    height: 54.1px;
+    left: 1158.18px;
+    top: 444.9px;
+
+    /* blue_kpi */
+
+    background: #ffffff;
+    border-radius: 30px;
+
+    position: absolute;
+    width: 168px;
+    height: 54.1px;
+    left: 1158px;
+    top: 441.9px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* white */
+
+    color: #141414;
+}
+
+#Cathedra {
+    position: absolute;
+    width: 284px;
+    height: 43px;
+    left: 822px;
+    top: 278px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+
+}
+
+#KPI {
+
+    position: absolute;
+    width: 253px;
+    height: 24px;
+    left: 822px;
+    top: 317px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+
+#accountant_department {
+    position: absolute;
+    width: 208px;
+    height: 29px;
+    left: 822px;
+    top: 340px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+#Cathedra,
+#KPI,
+#accountant_department {
+    margin-left: 66px;
+}
+
+
+img#prometeus {
+
+    position: absolute;
+    left: 0.16%;
+    right: 0.12%;
+    top: 0.18%;
+    bottom: 22.71%;
+    filter: invert(16%) sepia(64%) saturate(1300%) hue-rotate(196deg) brightness(95%) contrast(92%);
+
+
+    width: 169px;
+    height: 169px;
+    left: 1158px;
+    top: 244px;
+
+    scale: 60%;
+    border-radius: 0px;
+
+}

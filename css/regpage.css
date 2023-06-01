@@ -1,0 +1,113 @@
+.backgr {
+    position: absolute;
+    width: 1388px;
+    height: 758px;
+    left: 26px;
+    top: 16px;
+
+    background: #F1F1F1;
+    border-radius: 90px;
+}
+
+.reg {
+    position: absolute;
+    width: 623px;
+    height: 684px;
+    left: 409px;
+    top: 47px;
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+#reg_text{
+    position: absolute;
+    width: 186.07px;
+    height: 70.2px;
+    left: 630px;
+    top: 50px;
+    
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    color: #1E396E;
+}
+
+td {
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+#continue, #back{
+    width: 388.57px;
+    height: 53.35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+#continue {
+    left: 527px;
+    top: 643.64px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+#back {
+    width: 81px;
+    height: 54px;
+    left: 1278px;
+    top: 52px;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    margin: 15px;
+    /* grey */
+
+    border: 1px solid #F0F0F0;
+}
+
+p {
+    margin: 30px;
+}
+
+#giving_info{
+    position: absolute;
+width: 496.76px;
+height: 502.81px;
+left: 473px;
+top: 109px;
+
+}

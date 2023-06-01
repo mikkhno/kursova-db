@@ -1,0 +1,398 @@
+.backgr{
+    position: absolute;
+width: 1388px;
+height: 758px;
+left: 26px;
+top: 16px;
+
+background: #F1F1F1;
+border-radius: 90px;
+}
+
+.table{
+
+    position: absolute;
+    width: 610px;
+    height: 715px;
+    left: 71px;
+    top: 36px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+#submit{
+    position: absolute;
+width: 466.51px;
+height: 75.1px;
+left: 852.49px;
+top: 670px;
+
+/* blue_kpi */
+
+background: #1E396E;
+border: 0;
+border-radius: 30px;
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+justify-content: center;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+th, td{
+    padding:3px;
+}
+#salary_dep{
+    position: absolute;
+    width: 517px;
+    height: 181px;
+    left: 152px;
+    top: 325px;
+     
+    font-size: 15px;
+ 
+}
+
+.form{
+    position: absolute;
+    width: 527px;
+    height: 265px;
+    left: 820px;
+    top: 372px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+    border-radius: 60px;
+}
+
+#Cathedra {
+    position: absolute;
+    width: 284px;
+    height: 43px;
+    left: 822px;
+    top: 278px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+
+}
+
+#KPI {
+
+    position: absolute;
+    width: 253px;
+    height: 24px;
+    left: 822px;
+    top: 317px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+#accountant_department {
+    position: absolute;
+    width: 208px;
+    height: 29px;
+    left: 822px;
+    top: 340px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+
+#Cathedra,
+#KPI,
+#accountant_department {
+    margin-left: 66px;
+    padding-bottom: 30px;
+}
+
+
+img#prometeus {
+
+    position: absolute;
+    left: 0.16%;
+    right: 0.12%;
+    top: 0.18%;
+    bottom: 22.71%;
+    filter: invert(16%) sepia(64%) saturate(1300%) hue-rotate(196deg) brightness(95%) contrast(92%);
+
+
+    width: 169px;
+    height: 169px;
+    left: 1158px;
+    top: 244px;
+
+    scale: 60%;
+    border-radius: 0px;
+
+}
+
+
+
+#back{
+    position: absolute;
+    width: 81px;
+    height: 54px;
+    left: 1278px;
+    top: 52px;
+
+    /* blue_kpi */
+
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+
+.form{
+    position: absolute;
+    width: 527px;
+    height: 265px;
+    left: 820px;
+    top: 372px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+    border-radius: 60px;
+    }
+
+#period_start{
+    position: absolute;
+width: 149px;
+height: 31px;
+left: 871px;
+top: 437px;
+}
+
+#period_finish{
+    position: absolute;
+width: 149px;
+height: 31px;
+left: 1163px;
+top: 437px;
+
+}
+
+#start_txt{
+    position: absolute;
+width: 116px;
+height: 30px;
+left: 871px;
+top: 400px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#finish_txt{
+    position: absolute;
+width: 116px;
+height: 30px;
+left: 1163px;
+top: 400px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#hours{
+    position: absolute;
+width: 74px;
+height: 54px;
+left: 872px;
+top: 518px;
+
+}
+
+#hours_txt{
+    position: absolute;
+width: 227px;
+height: 30px;
+left: 872px;
+top: 488px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#vacation_days{
+    position: absolute;
+width: 149px;
+height: 31px;
+left: 1163px;
+top: 510px;
+}
+#vac_txt{
+    position: absolute;
+width: 83px;
+height: 30px;
+left: 1163px;
+top: 481px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#disab_days{
+    position: absolute;
+width: 149px;
+height: 31px;
+left: 1163px;
+top: 573px;
+}
+
+#disab_txt{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 1163px;
+    top: 545px;
+    
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#h_txt{
+    position: absolute;
+width: 304px;
+height: 48px;
+left: 933px;
+top: 195px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blue_kpi */
+
+color: #1E396E;
+
+}
+
+.data_backgr{
+    position: absolute;
+width: 527px;
+height: 265px;
+left: 820px;
+top: 372px;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 60px;
+}
+
+.table_backgr{
+
+    position: absolute;
+width: 710px;
+height: 293px;
+left: 60px;
+top: 267px;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 90px;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 90px;
+}

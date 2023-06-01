@@ -1,0 +1,321 @@
+#Cathedra {
+    position: absolute;
+    width: 284px;
+    height: 43px;
+    left: 822px;
+    top: 278px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+
+}
+
+#KPI {
+
+    position: absolute;
+    width: 253px;
+    height: 24px;
+    left: 822px;
+    top: 317px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+#accountant_department {
+    position: absolute;
+    width: 208px;
+    height: 29px;
+    left: 822px;
+    top: 340px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+
+#Cathedra,
+#KPI,
+#accountant_department {
+    margin-left: 66px;
+    padding-bottom: 30px;
+}
+
+
+img#prometeus {
+
+    position: absolute;
+    left: 0.16%;
+    right: 0.12%;
+    top: 0.18%;
+    bottom: 22.71%;
+    filter: invert(16%) sepia(64%) saturate(1300%) hue-rotate(196deg) brightness(95%) contrast(92%);
+
+
+    width: 169px;
+    height: 169px;
+    left: 1158px;
+    top: 274px;
+
+    scale: 60%;
+    border-radius: 0px;
+
+}
+
+.form_backgr {
+    position: absolute;
+    width: 700px;
+    height: 707px;
+    left: 96px;
+    top: 42px;
+
+
+
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+.backgr {
+    position: absolute;
+    width: 1388px;
+    height: 758px;
+    left: 26px;
+    top: 16px;
+
+    background: #F1F1F1;
+    border-radius: 90px;
+}
+
+#continue {
+
+    width: 334.65px;
+    height: 45.41px;
+    left: 268.35px;
+    top: 655px;
+    font-size: 24px;
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+
+}
+
+
+#exit {
+    position: absolute;
+    width: 81px;
+    height: 54px;
+    left: 1278px;
+    top: 52px;
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+p {
+    position: absolute;
+    width: 280.47px;
+    height: 27.11px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+input,
+select {
+    box-sizing: border-box;
+    position: absolute;
+    width: 287.21px;
+    height: 40.17px;
+    border: 1px solid #F0F0F0;
+    margin-top: 25px;
+}
+
+
+#surname {
+    left: 131.3px;
+    top: 147.9px;
+}
+
+#last_name {
+    left: 131.3px;
+    top: 175.02px;
+}
+
+#name {
+    left: 461.69px;
+    top: 147.9px;
+
+}
+
+#first_name {
+    left: 461.69px;
+    top: 175.02px;
+}
+
+#patr {
+    left: 131.3px;
+    top: 230.25px;
+}
+
+#patronymic {
+    left: 131.3px;
+    top: 257.36px;
+}
+
+#occupation {
+    left: 131.3px;
+    top: 312.59px;
+}
+
+#occ_name {
+    left: 131.3px;
+    top: 339.71px;
+}
+
+#hiring {
+    left: 461.69px;
+    top: 312.59px;
+}
+
+#hire_data {
+    left: 461.69px;
+    top: 339.71px;
+}
+
+#taxes {
+    left: 131.3px;
+    top: 394.94px;
+}
+
+#stax_name {
+    left: 131.3px;
+    top: 422.05px;
+
+}
+
+#benefits {
+    left: 461.69px;
+    top: 394.94px;
+}
+
+#ben_name {
+    left: 461.69px;
+    top: 422.05px;
+}
+
+#bday {
+    left: 461.69px;
+    top: 230.25px;
+}
+
+#bday_date {
+    left: 461.69px;
+    top: 257.36px;
+}
+
+#email {
+    left: 131.3px;
+    top: 477.29px;
+}
+
+#e-mail_field {
+    left: 131.3px;
+    top: 504.4px;
+}
+
+#phone {
+    left: 461.69px;
+    top: 477.29px;
+}
+
+#num {
+    left: 461.69px;
+    top: 504.4px;
+}
+
+#adress {
+    left: 131.3px;
+    top: 559.63px;
+}
+
+#adr {
+    width: 619.39px;
+    height: 40.17px;
+    left: 131.3px;
+    top: 586.74px;
+}
+
+#title {
+    position: absolute;
+width: 257px;
+height: 38px;
+left: 333px;
+top: 82px;
+
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}

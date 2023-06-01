@@ -1,0 +1,254 @@
+.main {
+    position: absolute;
+    width: 1388px;
+    height: 758px;
+    left: 26px;
+    top: 16px;
+
+    background: #F1F1F1;
+    border-radius: 90px;
+}
+
+.login {
+
+    position: absolute;
+    width: 533px;
+    height: 516px;
+    left: 118px; 
+    top: 137px;
+
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+#join {
+    position: absolute;
+    width: 256px;
+    height: 53px;
+    left: 272px;
+    top: 184px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+#login_text {
+    position: absolute;
+    width: 57.72px;
+    height: 27px;
+    left: 172px;
+    top: 275px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#log,
+#pas {
+    box-sizing: border-box;
+    border: 1px solid #F0F0F0;
+    position: absolute;
+}
+
+#log {
+    width: 425px;
+    height: 40px;
+    left: 172px;
+    top: 302px;
+}
+
+#pas {
+    width: 425px;
+    height: 40px;
+    left: 172px;
+    top: 382px;
+}
+
+#login_text,
+#password_text {
+    position: absolute;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#login_text {
+    width: 57.72px;
+    height: 27px;
+    left: 180px;
+    top: 255px;
+    /* margin-top: 25px; */
+}
+
+#password_text {
+    width: 85px;
+    height: 27px;
+    left: 180px;
+    top: 335px;
+    /* margin-top: 25px; */
+}
+
+#login,
+#signup {
+    position: absolute;
+    width: 200.79px;
+    height: 83px;
+    background: #1E396E;
+    border: 0;
+    border-radius: 30px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#login {
+    left: 396.21px;
+    top: 502px;
+}
+
+#signup {
+    left: 172px;
+    top: 502px;
+
+}
+
+
+
+img#prometeus {
+
+    position: absolute;
+    left: 0.16%;
+    right: 0.12%;
+    top: 0.18%;
+    bottom: 22.71%;
+    filter: invert(16%) sepia(64%) saturate(1300%) hue-rotate(196deg) brightness(95%) contrast(92%);
+
+
+    width: 169px;
+    height: 169px;
+    left: 1158px;
+    top: 344px;
+
+    scale: 60%;
+    border-radius: 0px;
+
+}
+
+#greetings {
+
+    position: absolute;
+    width: 533px;
+    height: 86px;
+    left: 789px;
+    top: 247px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+#Cathedra {
+
+    position: absolute;
+    width: 284px;
+    height: 43px;
+    left: 817px;
+    top: 348px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+#KPI {
+    position: absolute;
+    width: 253px;
+    height: 24px;
+    left: 817px;
+    top: 387px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
+
+#accountant_department {
+    position: absolute;
+    width: 208px;
+    height: 29px;
+    left: 817px;
+    top: 420px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* blue_kpi */
+
+    color: #1E396E;
+}
