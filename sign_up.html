@@ -1,0 +1,78 @@
+<!-- РЕЄСТРАЦІЯ КОРИСТУВАЧА -->
+<!DOCTYPE html>
+<html lang="X-UA-Compatible">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація користувача</title>
+    <link rel="stylesheet" href="/css/regpage.css">
+</head>
+
+<body>
+    <div class="backgr">
+        <div class="reg"></div>
+        <h1 id="reg_text">Реєстрація</h1>
+        <form action="registration.php" method="post">
+            <table id="giving_info">
+
+                <tr>
+                    <td>
+                        <p>Прізвище:</p>
+                    </td>
+
+                    <td><input type="text" name="last_name" required></td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Ім'я:</p>
+                    </td>
+
+                    <td><input type="text" name="first_name" required></td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Логін:</p>
+                    </td>
+
+                    <td><input type="text" name="login" required></td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Пароль:</p>
+                    </td>
+
+                    <td><input type="password" name="password" required></td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Пошта:</p>
+                    </td>
+
+                    <td><input type="email" name="email" required></td>
+
+                </tr>
+
+                
+                    <input type="submit" value="Створити акаунт" id="continue">
+                
+            </table>
+
+        </form>
+        
+        <a href="/login_page.html">
+            <button id="back">Назад</button>
+        </a>
+    </div>
+</body>
+
+</html>
